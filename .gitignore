@@ -1,0 +1,7 @@
+# node junk
+node_modules
+*.log
+
+# parcel stuff
+.cache
+dist

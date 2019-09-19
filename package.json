@@ -1,0 +1,39 @@
+{
+  "name": "thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/public/index.html",
+    "lint": "prettier-standard ./src/**/*.js && standard -f ./src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.3",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "prettier-standard": "^9.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "globals": [
+      "fetch"
+    ],
+    "parser": "babel-eslint",
+    "env": [
+      "node",
+      "jest"
+    ]
+  }
+}
