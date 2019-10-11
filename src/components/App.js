@@ -1,3 +1,7 @@
 import React from 'react'
+import ReactStoreIndicator from 'react-score-indicator'
 
-export default () => <h1>Hello World!</h1>
+export default () => <ReactStoreIndicator
+  value={74}
+  maxValue={100}
+/>
